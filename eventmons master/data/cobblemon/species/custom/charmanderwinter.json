@@ -1,0 +1,249 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 9000,
+  "name": "Charmander (Winter)",
+  "primaryType": "fire",
+  "secondaryType": "ice",
+  "maleRatio": 0.875,
+  "height": 6,
+  "weight": 85,
+  "lightingData": {
+    "lightLevel": 5,
+    "liquidGlowMode": "LAND"
+  },
+  "pokedex": [
+    "cobblemon.species.charmanderwinter.desc"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "abilities": [
+   "flashfire",
+   "h:refrigerate"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 49,
+    "attack": 60,
+    "defence": 39,
+    "special_attack": 52,
+    "special_defence": 40,
+    "speed": 70
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 0.65,
+  "hitbox": {
+    "width": 0.75,
+    "height": 1.3,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.175
+      },
+      "swim": {
+        "canSwimInLava": true
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "0-4"
+    },
+    "herd": {
+      "maxSize": "3"
+    }
+  },
+  "drops": {
+    "amount": 2,
+    "entries": [
+     {
+        "item": "cobblemon:icy_rock",
+        "quantityRange": "0-1",
+        "percentage": 25
+      },
+      {
+        "item": "cobblemon:heat_rock",
+        "quantityRange": "0-1",
+        "percentage": 25
+      }
+    ]
+  },
+ "moves": [
+    "1:scratch",
+    "1:growl",
+    "4:icywind",
+    "6:smokescreen",
+    "8:haze",
+    "10:ember",
+    "12:dragonbreath",
+    "14:icefang",
+    "16:firefang",
+    "20:slash",
+    "22:iceshard",
+    "24:icebeam",
+    "26:firepunch",
+    "28:flameburst",
+    "30:icespinner",
+    "32:flamethrower",
+    "36:inferno",
+    "38:icepunch",
+    "40:flareblitz",
+    "tm:ancientpower",
+    "tm:bellydrum",
+    "tm:bite",
+    "tm:counter",
+    "tm:dragonrage",
+    "tm:dragonrush",
+    "tm:irontail",
+    "tm:metalclaw",
+    "tm:wingattack",
+    "tm:beatup",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:brickbreak",
+    "tm:crunch",
+    "tm:cut",
+    "tm:dig",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firepledge",
+    "tm:firepunch",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:furycutter",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:honeclaws",
+    "tm:incinerate",
+    "tm:irontail",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metalclaw",
+    "tm:outrage",
+    "tm:overheat",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:rest",
+    "tm:roar",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:scaryface",
+    "tm:shadowclaw",
+    "tm:sleeptalk",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thunderpunch",
+    "tm:weatherball",
+    "tm:willowisp",
+    "tm:workup",
+    "tutor:ancientpower",
+    "tutor:blastburn",
+    "tutor:block",
+    "tutor:dragonpulse",
+    "tutor:falseswipe",
+    "tutor:firefang",
+    "tutor:firepledge",
+    "tutor:firepunch",
+    "tutor:flamethrower",
+    "tutor:focuspunch",
+    "tutor:furycutter",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:outrage",
+    "tutor:rest",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:shadowclaw",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:thunderpunch",
+    "legacy:acrobatics",
+    "legacy:aerialace",
+    "legacy:aircutter",
+    "legacy:attract",
+    "legacy:bide",
+    "legacy:captivate",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:defensecurl",
+    "legacy:doubleedge",
+    "legacy:doubleteam",
+    "legacy:dynamicpunch",
+    "legacy:frustration",
+    "legacy:furyswipes",
+    "legacy:hiddenpower",
+    "legacy:leer",
+    "legacy:mimic",
+    "legacy:mudslap",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:seismictoss",
+    "legacy:skullbash",
+    "legacy:snore",
+    "legacy:submission",
+    "legacy:swagger",
+    "legacy:toxic",
+    "special:blastburn",
+    "special:block",
+    "special:celebrate",
+    "special:howl",
+    "special:quickattack"
+  ],
+  "evolutions": [
+    {
+      "id": "charmanderwinter_charmeleonwinter",
+      "variant": "level_up",
+      "result": "charmeleonwinter",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "species": "cobblemon:charmanderwinter",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:charmanderwinter",
+      "model": "cobblemon:charmanderwinter.geo.json",
+      "texture": "cobblemon:textures/pokemon/charmanderwinter/charmanderwinter.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/charmanderwinter/charmanderwinter_flame1.png",
+              "cobblemon:textures/pokemon/charmanderwinter/charmanderwinter_flame2.png",
+              "cobblemon:textures/pokemon/charmanderwinter/charmanderwinter_flame3.png",
+              "cobblemon:textures/pokemon/charmanderwinter/charmanderwinter_flame4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/charmanderwinter/charmanderwinter_shiny.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/charmanderwinter/charmanderwinter_shiny_flame1.png",
+              "cobblemon:textures/pokemon/charmanderwinter/charmanderwinter_shiny_flame2.png",
+              "cobblemon:textures/pokemon/charmanderwinter/charmanderwinter_shiny_flame3.png",
+              "cobblemon:textures/pokemon/charmanderwinter/charmanderwinter_shiny_flame4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}
